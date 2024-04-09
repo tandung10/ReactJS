@@ -1,15 +1,15 @@
-import React, { useState } from "react";
 import './App.css';
+import ColorBox from './Component/ColorBox';
+// import Count from './Component/Count';
+
 
 function App() {
-  const [count, setCount] = useState(0);
   return (
-    <div>
-      <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>increase</button>
-      <button onClick={() => setCount(count - 1)}>decrease</button>
-
-    </div>
+    <section section >
+      <ColorBox color="red"></ColorBox>
+      <ColorBox color="black"></ColorBox>
+      <ColorBox color="green"></ColorBox>
+    </section>
   );
 }
 export default App;
