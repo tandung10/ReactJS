@@ -21,9 +21,6 @@ const TodoList = () => {
         setJob("");
     }
 
-    // function handleEdit() {
-
-    // }
     return (
         <div className='container'>
             <input value={job} className='input_job' type="text" onChange={(e) => {

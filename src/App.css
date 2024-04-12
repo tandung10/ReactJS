@@ -69,4 +69,5 @@ body {
 .container {
   height: 500px;
   overflow-y: auto;
+  background: #000;
 }
