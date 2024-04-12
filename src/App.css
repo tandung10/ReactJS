@@ -59,7 +59,16 @@ h2 {
   text-overflow: ellipsis;
   white-space: normal;
 }
-/* CSS Products */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  display: block;
+  height: 500px;
+  overflow-y: auto;
+}
+.input_job {
 }

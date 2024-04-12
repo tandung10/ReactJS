@@ -14,9 +14,6 @@ const Product = () => {
 
     }, []);
 
-    // if (!Array.isArray(products)) {
-    //     return null;
-    // }
     return (
         <div>
             {products.map((item) => <div className="container" key={item.id}>
