@@ -1,5 +1,6 @@
 import './App.css';
-import Count from './Component/Count';
+import Product from './Component/Product';
+// import Count from './Component/Count';
 // import Youtube from './Component/Youtube';
 // import Count from './Component/Count';
 
@@ -131,9 +132,67 @@ import Count from './Component/Count';
 //   )
 // }
 
+// function App() {
+//   return (
+//     <Count />
+//   )
+// }
+
+// const users = {
+//   fullName: 'Tan Dung',
+//   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+//   imageSize: 90
+// };
+
+// function App() {
+//   return (
+//     <div>
+//       <h1>{users.fullName}</h1>
+//       <img src={users.imageUrl} alt="avatar"
+//         style={{
+//           width: users.imageSize,
+//           height: users.imageSize
+//         }}
+//       />
+
+//     </div>
+//   )
+// }
+
+// const product = [
+//   {
+//     id: 1,
+//     title: "Dung"
+//   },
+//   {
+//     id: 2,
+//     title: "Hi"
+//   },
+//   {
+//     id: 3,
+//     title: "Nho"
+//   },
+//   {
+//     id: 4,
+//     title: "Abc"
+//   }
+// ];
+
+// function App() {
+//   const listItem = product.map(product =>
+//     <li key={product.id}>{product.title}</li>
+//   )
+//   return (
+//     <div>
+//       <ul>{listItem}</ul>
+//     </div>
+//   )
+// }
+
 function App() {
   return (
-    <Count />
+    <Product />
   )
 }
+
 export default App;
