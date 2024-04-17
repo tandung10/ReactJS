@@ -1,6 +1,8 @@
 import './App.css';
+
+import Product from './Component/Product';
 // import Product from './Component/Product';
-import TodoList from './Component/TodoList';
+// import TodoList from './Component/TodoList';
 // import Count from './Component/Count';
 // import Youtube from './Component/Youtube';
 // import Count from './Component/Count';
@@ -192,7 +194,7 @@ import TodoList from './Component/TodoList';
 
 function App() {
   return (
-    <TodoList />
+    <Product />
   )
 }
 
