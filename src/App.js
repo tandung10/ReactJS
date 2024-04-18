@@ -1,6 +1,9 @@
+// import { useState } from 'react';
 import './App.css';
+import Form from './Component/Form';
+// import Toggle from './Component/Toggle';
 
-import Product from './Component/Product';
+// import Product from './Component/Product';
 // import Product from './Component/Product';
 // import TodoList from './Component/TodoList';
 // import Count from './Component/Count';
@@ -192,10 +195,119 @@ import Product from './Component/Product';
 //   )
 // }
 
+// function App() {
+//   return (
+//     <Product />
+//   )
+// }
+
+// function App() {
+//   const [infor, setInfor] = useState({
+//     name: "Tan Dung",
+//     age: 21,
+//     address: "Da Nang"
+//   })
+
+
+//   const handleClick = () => {
+//     setInfor({
+//       ...infor,
+//       bio: "Quang Nam"
+//     })
+//   }
+
+//   return (
+//     <div>
+//       <h1>{JSON.stringify(infor)}</h1>
+//       <button onClick={handleClick}>Update</button>
+//     </div>
+//   )
+// }
+
+// function App() {
+//   const [cars, setCars] = useState(["Civic", "Mec", "Maxda"]);
+
+//   const handleUpdate = () => {
+//     setCars([...cars, "Brio"])
+//   };
+
+
+//   return (
+//     <div>
+//       <h1>{cars}</h1>
+//       <button onClick={handleUpdate}>Update</button>
+//     </div>
+//   )
+// }
+
+// const gifts = [
+//   'CPU 19',
+//   'RAM 32GB',
+//   'RCB Keyboard'
+// ]
+// console.log(gifts);
+
+// function App() {
+
+//   const [gift, setGift] = useState()
+
+//   const randomGift = () => {
+//     const index = Math.floor(Math.random() * gifts.length);
+//     setGift(gifts[index]);
+//   }
+
+//   return (
+//     <div style={{ padding: 32 }}>
+//       <h1>{gift || 'Chưa có phần thưởng'}</h1>
+//       <button onClick={randomGift}>Lấy thưởng</button>
+//     </div>
+//   )
+// }
+
+// const courses = [
+//   {
+//     id: 1,
+//     name: "HTML,CSS"
+//   },
+//   {
+//     id: 2,
+//     name: 'Javascript'
+//   },
+//   {
+//     id: 3,
+//     name: 'ReactJS'
+//   }
+// ]
+
+// function App() {
+//   const [check, setCheck] = useState();
+//   const handleSubmit = () => {
+//     console.log({
+//       id: check
+//     });
+//   }
+//   return (
+//     <div style={{ padding: 32 }}>
+//       {courses.map(course =>
+//         <div key={course.id}>
+//           <input type="radio"
+//             checked={check === course.id}
+//             onChange={() => setCheck(course.id)}
+//           />
+//           {course.name}
+//         </div>
+//       )}
+
+
+//       <button onClick={handleSubmit}>Submit</button>
+//     </div>
+//   )
+// }
 function App() {
-  return (
-    <Product />
-  )
+    return (
+        // <Toggle />
+        <Form />
+    )
 }
 
 export default App;
