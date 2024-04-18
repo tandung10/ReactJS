@@ -1,6 +1,9 @@
 // import { useState } from 'react';
-import './App.css';
-import Form from './Component/Form';
+// import './App.css';
+// import Form from './Component/Form';
+import Todolist from './useState/Todolist';
+import './style/todolist.css';
+// import './img/delete.png';
 // import Toggle from './Component/Toggle';
 
 // import Product from './Component/Product';
@@ -306,7 +309,8 @@ import Form from './Component/Form';
 function App() {
     return (
         // <Toggle />
-        <Form />
+        // <Form />
+        <Todolist />
     )
 }
 

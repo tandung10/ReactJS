@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  min-height: 600px;
+  background: #969090;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.header-todolist {
+  text-align: center;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Racing Sans One";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-style: italic;
+}
+.input-todolist {
+  margin-top: 30px;
+  width: 500px;
+  height: 49.438px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #d9d9d9;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+}
+.btn-todolist {
+  width: 142.686px;
+  height: 49.438px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #4f4f4f;
+  border: none;
+  margin: 5px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-todolist:hover {
+  color: #4f4f4f;
+  background-color: white;
+  transition: all 0.5s ease-in;
+}
+
+.icon {
+  display: inline-flex;
+  text-align: start;
+  padding-right: 20px;
+}
+.icon span {
+  padding-top: 20px;
+  margin-left: -42px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 800;
+}
+.icon span:hover {
+  color: red;
+}
+.list-todolist li {
+  display: block;
+  margin: 0 auto;
+  width: 648px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: white;
+  list-style: none;
+  margin-top: 20px;
+  font-size: 30px;
+  padding-left: 10px;
+}
