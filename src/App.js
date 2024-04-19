@@ -1,8 +1,16 @@
 // import { useState } from 'react';
 // import './App.css';
 // import Form from './Component/Form';
-import Todolist from './useState/Todolist';
+// import Todolist from './useState/Todolist';
 import './style/todolist.css';
+import NavBar from './Component/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from './Component/Slider';
+// import { Card, CardLink } from 'react-bootstrap';
+import CardList from './Component/CardList';
+import FormContact from './Component/FormContact';
+import Footer from './Component/Footer';
+// import Footer from './Component/Footer';
 // import './img/delete.png';
 // import Toggle from './Component/Toggle';
 
@@ -310,7 +318,15 @@ function App() {
     return (
         // <Toggle />
         // <Form />
-        <Todolist />
+        // <Todolist />
+        // <NavBar />
+        <div>
+            <NavBar />
+            <Slider />
+            <CardList />
+            <FormContact />
+            <Footer />
+        </div>
     )
 }
 
