@@ -316,10 +316,7 @@ import Footer from './Component/Footer';
 // }
 function App() {
     return (
-        // <Toggle />
-        // <Form />
-        // <Todolist />
-        // <NavBar />
+
         <div>
             <NavBar />
             <Slider />
