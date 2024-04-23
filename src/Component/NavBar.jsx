@@ -15,21 +15,22 @@ function NavBar() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">Link</Nav.Link>
-                        <NavDropdown title="Link" id="navbarScrollingDropdown">
-                            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                        <Nav.Link href="#action1">Trang chủ</Nav.Link>
+                        <Nav.Link href="#action2">Giới thiệu</Nav.Link>
+
+                        <Nav.Link href="#" >
+                            Sản phẩm
+                        </Nav.Link>
+                        <NavDropdown title="Liên hệ" id="navbarScrollingDropdown">
+                            <NavDropdown.Item href="#action3">Zalo</NavDropdown.Item>
                             <NavDropdown.Item href="#action4">
-                                Another action
+                                Facebook
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action5">
-                                Something else here
+                                Phone: 0935038810
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#" >
-                            Link
-                        </Nav.Link>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control
