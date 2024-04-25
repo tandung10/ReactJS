@@ -1,0 +1,12 @@
+
+---------USEEFFECT---------
+CALLBACK luôn đc gọi khi component MOUNTED
+
+1. useEffect(Callback)
+- gọi callback mỗi khi component re-render
+- gọi callback sau khi component thêm element vào DOM
+2. useEffect(callback, [])
+- chỉ gọi component 1 lần khi component mounted
+3. useEffect(Callback,[deps])
+- deps là một biến, chứa một giá trị dử liệu
+- Callback sẽ được gọi lại mỗi khi deps thay đổi

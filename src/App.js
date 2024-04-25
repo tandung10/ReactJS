@@ -2,15 +2,18 @@
 // import './App.css';
 // import Form from './Component/Form';
 // import Todolist from './useState/Todolist';
-import './style/todolist.css';
+// import './style/todolist.css';
 // import NavBar from './Component/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ApiList from './useEffect/ApiList';
+// import Todo from './useEffect/Todo';
+// import TodoApp from './useState/TodoApp';
 // import Slider from './Component/Slider';
 // import { Card, CardLink } from 'react-bootstrap';
 // import CardList from './Component/CardList';
 // import FormContact from './Component/FormContact';
 // import Footer from './Component/Footer';
-import Todolist from './useState/Todolist';
+// import Todolist from './useState/Todolist';
 // import Product from './Component/Product';
 // import Footer from './Component/Footer';
 // import './img/delete.png';
@@ -327,7 +330,10 @@ function App() {
             <Footer /> */}
             {/* <Todolist /> */}
             {/* <Product /> */}
-            <Todolist />
+            {/* <Todolist /> */}
+            {/* <TodoApp /> */}
+            {/* <Todo /> */}
+            <ApiList />
         </div>
     )
 }
