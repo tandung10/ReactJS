@@ -5,7 +5,10 @@
 // import './style/todolist.css';
 // import NavBar from './Component/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ChooseAvatar from './useEffect/ChooseAvatar';
+// import Api from './useEffect/Api';
+import ApiList from './useEffect/ApiList';
+// import ApiList from './useEffect/ApiList';
+// import ChooseAvatar from './useEffect/ChooseAvatar';
 // import Timeout from './useEffect/Timeout';
 // import ApiList from './useEffect/ApiList';
 // import Todo from './useEffect/Todo';
@@ -335,9 +338,10 @@ function App() {
             {/* <Todolist /> */}
             {/* <TodoApp /> */}
             {/* <Todo /> */}
-            {/* <ApiList /> */}
+            <ApiList />
             {/* <Timeout /> */}
-            <ChooseAvatar />
+            {/* <ChooseAvatar /> */}
+            {/* <Api /> */}
         </div>
     )
 }
