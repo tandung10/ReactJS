@@ -6,7 +6,8 @@
 // import NavBar from './Component/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Api from './useEffect/Api';
-import ApiList from './useEffect/ApiList';
+// import ApiList from './useEffect/ApiList';
+import Count from './useRef/Count';
 // import ApiList from './useEffect/ApiList';
 // import ChooseAvatar from './useEffect/ChooseAvatar';
 // import Timeout from './useEffect/Timeout';
@@ -338,10 +339,11 @@ function App() {
             {/* <Todolist /> */}
             {/* <TodoApp /> */}
             {/* <Todo /> */}
-            <ApiList />
+            {/* <ApiList /> */}
             {/* <Timeout /> */}
             {/* <ChooseAvatar /> */}
             {/* <Api /> */}
+            <Count />
         </div>
     )
 }

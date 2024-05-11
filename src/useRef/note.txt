@@ -1,0 +1,11 @@
+
+=========/ useRef /=========
+
+useRef return Object
+in Object have attribute is current
+
+useRef được sinh ra để làm công việc: 
+- Lưu các giá trị qua một tham chiếu bên ngoài function component 
++ Giải thích
+- Khi chúng ta dùng useRef để lưu giá trị, thì khi phải render lại một function component, giá trị đã lưu sẽ không bị thay đổi, 
+mà vẫn giữ được giá trị đã lưu trước đó.
